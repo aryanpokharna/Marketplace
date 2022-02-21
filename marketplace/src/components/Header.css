@@ -43,7 +43,8 @@
 
 .headerItems {
     display: flex;
-    color: #a1a5b0;
+    color: #eee;
+    font-weight: 700;
     /* justify-content: space-between; this doesn't work, because of the flex 1 */
 }
 
@@ -76,9 +77,12 @@
 }
 
 .loginButton {
-    background: linear-gradient(to right, #59f9b7, #66feea);
+    background: linear-gradient(to right, #aff8da, #66feea);
     /* y-axis x-axis */
     padding: 15px 40px;
     border-radius: 50px;
-    color: black;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #072c21;
 }

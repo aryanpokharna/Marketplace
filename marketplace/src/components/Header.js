@@ -34,7 +34,9 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="loginButton">GET IN</div>
+      <button className="loginButton" onClick={()=>window.open("https://testnets.opensea.io/collection/colours-ag5qsddnvz")}>
+      OPENSEA
+      </button>
     </div>
   );
 };
